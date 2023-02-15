@@ -24,4 +24,24 @@ footer {
     align-items: center;
     max-height: 10vh;
     text-align: center;
+    padding-top: 50px;
+
+}
+
+@media only screen and (min-width: 600px) {
+    main {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    #title {
+        grid-column: span 2;
+    }
+
+    footer {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    #social {
+        grid-column: span 2;
+    }
 }
